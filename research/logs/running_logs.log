@@ -1,0 +1,45 @@
+[2024-08-03 18:54:30,801]: INFO: common yaml file config\config.yaml loaded successfully.
+[2024-08-03 18:54:30,811]: INFO: common yaml file params.yaml loaded successfully.
+[2024-08-03 18:55:45,946]: INFO: common yaml file config\config.yaml loaded successfully.
+[2024-08-03 18:55:45,948]: INFO: common yaml file params.yaml loaded successfully.
+[2024-08-03 18:55:45,953]: INFO: common Created directory at: artifacts
+[2024-08-03 18:55:45,955]: INFO: common Created directory at: artifacts/data_ingestion
+[2024-08-03 18:57:21,105]: INFO: common yaml file config\config.yaml loaded successfully.
+[2024-08-03 18:57:21,106]: INFO: common yaml file params.yaml loaded successfully.
+[2024-08-03 18:57:21,106]: INFO: common Created directory at: artifacts
+[2024-08-03 18:57:21,109]: INFO: common Created directory at: artifacts/data_ingestion
+[2024-08-03 18:58:12,368]: INFO: common yaml file config\config.yaml loaded successfully.
+[2024-08-03 18:58:12,369]: INFO: common yaml file params.yaml loaded successfully.
+[2024-08-03 18:58:12,371]: INFO: common Created directory at: artifacts
+[2024-08-03 18:58:12,372]: INFO: common Created directory at: artifacts/data_ingestion
+[2024-08-03 18:58:55,771]: INFO: common yaml file config\config.yaml loaded successfully.
+[2024-08-03 18:58:55,773]: INFO: common yaml file params.yaml loaded successfully.
+[2024-08-03 18:58:55,773]: INFO: common Created directory at: artifacts
+[2024-08-03 18:58:55,773]: INFO: common Created directory at: artifacts/data_ingestion
+[2024-08-03 18:59:00,007]: INFO: 3851955503 artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 9694:3AC864:672058:752C69:66AEB630
+Accept-Ranges: bytes
+Date: Sat, 03 Aug 2024 22:58:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bos4668-BOS
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1722725937.831997,VS0,VE257
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d01d11cab2c25b109709f74e04d270d4706e8918
+Expires: Sat, 03 Aug 2024 23:03:57 GMT
+Source-Age: 0
+
+
