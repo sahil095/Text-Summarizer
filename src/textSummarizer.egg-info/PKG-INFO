@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: textSummarizer
+Version: 0.0.0
+Summary: A small Python library for NLP app
+Home-page: https://github.com/sahil095/Text-Summarization
+Author: sahil095
+Author-email: sehgal.sahil0786@gmail.com
+Project-URL: Bug Tracker, https://github.com/sahil095/Text-Summarization/issues
+Description-Content-Type: text/markdown
+
+# Text-Summarizer
