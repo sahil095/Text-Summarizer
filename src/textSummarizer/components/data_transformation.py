@@ -11,15 +11,16 @@ class DataTransformation:
         self.tokenizer = AutoTokenizer.from_pretrained(config.TOKENIZER_NAME)
     
     def convert_examples_to_features(self, example_batch):
-        input_encodings = self.tokenizer(example_batch['dialogue'], max_length = 1024, truncation = True)
+        input_encodings = self.tokenizer(example_batch['dialogue'], max_length = 256, truncation = True)
 
-        with self.tokenizer.as_target_tokenizer():
-            target_encodings = self.tokenizer(example_batch['summary'], max_length = 128, truncation = True)
-
+        # with self.tokenizer.as_target_tokenizer():
+        #     target_encodings = self.tokenizer(example_batch['summary'], max_length = 128, truncation = True)
+        
+        labels = self.tokenizer(example_batch["summary"], max_length=128, truncation=True, padding='max_length')
         return {
             'input_ids': input_encodings['input_ids'],
             'attention_mask': input_encodings['attention_mask'],
-            'labels': input_encodings['input_ids']
+            'labels': labels['input_ids']
         }
     
     def convert(self):
